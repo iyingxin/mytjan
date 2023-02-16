@@ -186,11 +186,6 @@ readconfig(){
 clean_env(){
 prasejson
 cd /root
-if [[ -n ${uuid_new} ]]; then
-
-else
-
-fi
 cd
 if [[ ${install_dnscrypt} == 1 ]]; then
   if [[ ${dist} = ubuntu ]]; then
